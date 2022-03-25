@@ -1,0 +1,25 @@
+{
+  "name": "Community Visualization",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+  "organization": "Data Studio Codelab",
+  "organizationUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "supportUrl": "https://url",
+  "packageUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "description": "Community Visualization Codelab",
+  "devMode": true,
+  "components": [
+    {
+      "id": "myVizId",
+      "name": "myViz",
+      "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+      "description": "My first Community Visualization",
+      "resource": {
+        "js": "gs://analyzequicker/datagrid-dev/index.js",
+        "config": "gs://analyzequicker/datagrid-dev/index.json",
+        "css": "gs://analyzequicker/datagrid-dev/index.css"
+      }
+    }
+  ]
+}
